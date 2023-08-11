@@ -1,0 +1,140 @@
+html, body {margin: 0; width: 100% ;height: 100%; 
+    overflow-x: hidden; overflow-y: hidden;}
+
+body{
+    position: relative;
+}
+
+.texto {
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#titulo{
+    font-size: 38px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#barra{
+    margin-top: 0px;
+    padding-bottom: 18px;
+}
+
+#imagembackground {
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    width: 471px;
+    height: 383px;
+    margin-top: -250px;
+    margin-left: -250px; 
+}
+
+.imagem-bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.texto-bottom {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    z-index: 2;
+}
+
+.button{
+    width: 208px;
+    height: 47px;
+    border-radius: 32px;
+    font-family: 'Heebo', sans-serif;
+    background: rgb(242,115,115);
+background: linear-gradient(90deg, rgba(242,115,115,1) 0%, rgba(252,61,61,1) 100%);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-color: brown;
+    border-width: 0;
+}   
+
+.flex-button {
+    position: absolute;
+    top: 58%;
+    left: 24%;
+
+}
+#gatinho{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    height: 168px;
+    width: 182px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#coelhinho{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    height: 215px;
+    width: 145px;
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+.divanimal{
+display: flex;
+justify-content: center;
+
+}
+
+.textoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textooo{
+    font-family: 'Heebo', sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.body2{
+    background-color: #F4F4F4;
+}
+
+#bolinha1{
+    position: absolute;
+   bottom: 0;
+   margin-bottom: 44px;
+   left: 10%;
+}
+
+#bolinha2{
+     position: absolute;
+    bottom: 0;
+    margin-bottom: 44px;
+    left: 70%;
+}
+
+.footercolor{
+
+}
+
+.flexboc{
+    display: flex;
+
+}
+
